@@ -20,8 +20,16 @@ removeAllAfterLast(10, arr);
 // arr is now [5,10,15,20,10]  
 ```
 
+## Installation
+`npm i @writetome51/array-remove-all-after`
+
 ## Loading
 ```
-import {removeAllAfterFirst, removeAllAfterLast}  from '@writetome51/array-remove-all-after';
-
+// if using TypeScript:
+import {removeAllAfterFirst, removeAllAfterLast} from '@writetome51/array-remove-all-after';
+// if using ES5 JavaScript:
+var removeAllAfterFirst = 
+    require('@writetome51/array-remove-all-after').removeAllAfterFirst;
+var removeAllAfterLast = 
+    require('@writetome51/array-remove-all-after').removeAllAfterLast;
 ```
